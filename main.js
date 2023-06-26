@@ -15,7 +15,7 @@ function adicionaLinha() {
     const inputNumeroContato = document.getElementById('numero-contato');
 
     Nomes.push(inputNomeContato.value);
-    numeros.push(parseFloat(inputNumeroContato.value));
+    numeros.push(inputNumeroContato.value);
 
     let linha = '<tr>';
     linha += `<td>${inputNomeContato.value}</td>`;
